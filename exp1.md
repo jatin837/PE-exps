@@ -24,15 +24,15 @@ forward breakover voltage and this would help afterwards to get values for each 
 
 
 ## PROCEDURE
-	- Make the connections as per the schematic and fix the value of V1 and V2 at min
-level.
-	- Set the value of gate current to 2mA by adjusting the values of V2 and R2.
-	- Give a sinusoidal voltage of 30V at 50Hz and run the simulation for 20ms.
-	- Obtain the characteristics of SCR with anode to cathode voltage on x-axis and anode
++ Make the connections as per the schematic and fix the value of V1 and V2 at min
+level
++ Set the value of gate current to 2mA by adjusting the values of V2 and R2
++ Give a sinusoidal voltage of 30V at 50Hz and run the simulation for 20ms
++ Obtain the characteristics of SCR with anode to cathode voltage on x-axis and anode
 current on y-axis and analyse
-		- forward blocking mode
-		- forward conduction mode
-		- reverse blocking mode
+	+ forward blocking mode
+	+ forward conduction mode
+	+ reverse blocking mode
 
 ## SCHEMATIC
 ![schematics](static/2.png)
@@ -43,7 +43,10 @@ current on y-axis and analyse
 ## RESULT
 According to the result we obtained, our observation successfully satisfies the VI
 Characteristics of SCR in forward region, here other than obtaining the required graph we
-also obtained:
+also obtained\:
+
 **Latching Current**: 11.3mA
+
 **Holding Current**: Less than 5mA
+
 **Forward breakover voltage**: 1.58V
