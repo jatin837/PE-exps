@@ -16,14 +16,12 @@ To turn-off the thyristor (SCR) a commutation circuit is required\. Class-C comm
 ## SCHEMATIC
 
 ![schematic](static/16.png)
-
-    
+schematic
 
 ## EXPECTED OUTCOME
 
 ![V and I waveform of class-C commutation](static/15.png)
-
-    
+V and I waveform of class-C commutation
 
 ## OBSERVATION
 
@@ -40,4 +38,4 @@ To turn-off the thyristor (SCR) a commutation circuit is required\. Class-C comm
 
 ## RESULT
 
-According to the result we obtained, our observation successfully satisfies the expected outcome for thyristor voltage($X_{1}) and thyristor voltage($X_{2}) also the capacitance voltage satisfies the correction method
+According to the result we obtained, our observation successfully satisfies the expected outcome for thyristor voltage($X_{1}$) and thyristor voltage($X_{2}$) also the capacitance voltage satisfies the correction method
