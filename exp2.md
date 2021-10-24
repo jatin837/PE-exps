@@ -29,15 +29,33 @@ so as to form the gate of MOSFET.
 Make the connections as shown in the schematic
 
 ## SCHEMATIC
+
 ![schematics](static/4.png)
+Schematic
+
+
+## Output characteristics
+* From the datasheet, find the range of threshold voltage(Vgs)
+* Fix the Vgs to its minumum value
+* Vary the value of Vds from 0 to 25V with a step size of 0.1V and obtain the value of Id
+* Obtain the curve with Id on y-axis and VDS on x-axis
+* Repeat the steps 1 to 5 for different values of VGS with an increment of 0.5V until its
+maximum value (which is mentioned in the datasheet)
+
+## Transfer characteristics
+* Fix the value of VDS to a constant value
+* Vary VGS from its minimum value with a step size of 0.1V
+* Plot the curve with Id on y-axis and VGS on x-axis
+
 
 ## OBSERVATION
-![observations](static/3.png)
+
+![output characteristics](static/5.png)
+__Output characteristics__
+
+![Transfer characteristics](static/6.png)
+__Transfer characteristics__
 
 ## RESULT
 According to the result we obtained, our observation successfully satisfies the VI
-Characteristics of SCR in forward region, here other than obtaining the required graph we
-also obtained:
-**Latching Current**: 11.3mA
-**Holding Current**: Less than 5mA
-**Forward breakover voltage**: 1.58V
+Characteristics of MOSFET
