@@ -1,9 +1,9 @@
----
+# POWER ELECTRONICS LAB WORK
 
-Name = Jatin Pandey
-Roll Number = 2K19/EE/125
-Titile = EE301 Power Electronics Lab Report
+![](static/logo.png)
 
----
+## SUBMITTED BY 
+**Jatin Pandey** ( _2K19/EE/125_ )
 
-
+## SUBMITTED TO
+**Prof MiniSreejeth K**
